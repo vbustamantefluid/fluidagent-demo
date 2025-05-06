@@ -15,4 +15,4 @@ jobs:
         ftoken: ${{ secrets.FTOKEN }}
     steps:
       - name: Run Agent check
-        run: forces --token ${ftoken} --strict --breaking 4.0 --repo-name jgomezb11_reachability_test
+        run: forces --token ${ftoken} --strict --breaking 4.0
